@@ -19,11 +19,6 @@ input[type="checkbox"]{display:none}
 
 header, .store, footer{background: #fff;}
 
-#sh{
-    text-align: center;
-    top:100px;
-}
-
 .slide > h2 ,.new_item > h2, .brand > h2, .ad >.con>h2
 ,.con h2{display:none;}
 .brand{
