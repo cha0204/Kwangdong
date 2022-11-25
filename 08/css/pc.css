@@ -94,8 +94,8 @@ main{}
 }
 .search-box {
   position: absolute;
-  top: 145%;
-  left:17%;
+  top: 130%;
+  left:25%;
 }
 .search-box {
   /* 생략 */
@@ -103,7 +103,7 @@ main{}
   width:995px;
   height: 81px;
   border-radius:45px;
-  margin:25px;
+  margin-top: 70px;
 }
 .search-btn {
   color: #EDEDED;
@@ -124,7 +124,7 @@ main{}
   width: 50%;
   height: 100%;
   padding-left:  372px; 
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 0.85px;
   text-align: left;
   color:#fff;
@@ -144,13 +144,13 @@ main{}
 }
 .products{
   display:flex;
-  padding-left: 260px;
+  padding-left: 300px;
 }
-.D_products .txt{
-  display: flex;
-  padding-left:353px;
+.D_products span{
 }
-.products li{}
+.products li{
+  margin-left: 25px;
+}
 .products li img{
   width:250px;
   height: 190px;
@@ -158,7 +158,26 @@ main{}
 .products p{
   font-size: 12px;
 }
-.R_products .products{
-  padding-left:210px;
+.brand ul{
+  height:323px;
+  background:#EF4023;
+  display:flex;
+  padding-left:495px;
 }
+.brand li{
+  padding-left:30px;
+  margin-top:80px;
+}
+.Social{
+  display:grid;
+  grid-template-columns: 500px 500px 500px;
+	grid-template-rows: repeat(3, 1fr);
+  padding-left:228px;
+}
+.Social li{}
+.Social li img{
+  width:428px;
+  height:242px;
+}
+footer{}
 }
